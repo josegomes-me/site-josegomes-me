@@ -1,0 +1,12 @@
+{
+  "name": "site-josegomes-me",
+  "version": "1.0.0",
+  "description": "Personal Website josegomes.me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
