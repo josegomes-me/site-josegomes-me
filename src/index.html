@@ -12,7 +12,7 @@
     </div>
 
     <div x-data="{ showModal: false }" @keydown.window.escape="showModal = false">
-      <button @click="showModal = !showModal" class="underline">Toggle</button>
+      <button @click="showModal = !showModal" class="underline text-center">Toggle</button>
     
       <div x-cloak x-transition.opacity x-show="showModal" class="fixed inset-0 bg-black/50"></div>
     
@@ -24,6 +24,6 @@
       </div>
     </div>
 
-    <script src="bundle.js"></script>
+    <script type="text/javascript" src="/bundle.js" defer></script>
   </body>
 </html>
